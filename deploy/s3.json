@@ -1,0 +1,9 @@
+{
+  "identities": [
+    {
+      "name": "dits",
+      "credentials": [{ "accessKey": "dits", "secretKey": "dits-secret-change-me" }],
+      "actions": ["Admin", "Read", "Write", "List", "Tagging"]
+    }
+  ]
+}

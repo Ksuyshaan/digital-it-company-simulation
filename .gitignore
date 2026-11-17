@@ -1,0 +1,24 @@
+# зависимости и сборки
+node_modules/
+dist/
+*.tsbuildinfo
+*.log
+
+# секреты и локальные данные
+.env
+.env.*
+!.env.example
+backend/backups/
+
+# материалы, которые не храним в репозитории
+Design/
+docx_extracted/
+tz.zip
+\#U*
+/package-lock.json
+
+# IDE и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
